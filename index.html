@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Paper collected by Wang</title>
+<title>arXiv Papers of High Resolution Visual Generation</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 
@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -41,9 +41,8 @@ span#abs{
 }
 </style>
 </head>
-<body>
-
-</p></br></br><div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.16910.pdf' target='_blank'>https://arxiv.org/pdf/2512.16910.pdf</a></span>   <span><a href='https://github.com/Neur-IO/SFTok' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Qihang Rao, Borui Zhang, Wenzhao Zheng, Jie Zhou, Jiwen Lu
+<body><div id='title' style='font-size:1.3em; font-weight:bold;'>arXiv Papers of High Resolution Visual Generation</div><br>
+<div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.16910.pdf' target='_blank'>https://arxiv.org/pdf/2512.16910.pdf</a></span>   <span><a href='https://github.com/Neur-IO/SFTok' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Qihang Rao, Borui Zhang, Wenzhao Zheng, Jie Zhou, Jiwen Lu
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.16910">SFTok: Bridging the Performance Gap in Discrete Tokenizers</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Recent advances in multimodal models highlight the pivotal role of image tokenization in high-resolution image generation. By compressing images into compact latent representations, tokenizers enable generative models to operate in lower-dimensional spaces, thereby improving computational efficiency and reducing complexity. Discrete tokenizers naturally align with the autoregressive paradigm but still lag behind continuous ones, limiting their adoption in multimodal systems. To address this, we propose \textbf{SFTok}, a discrete tokenizer that incorporates a multi-step iterative mechanism for precise reconstruction. By integrating \textbf{self-forcing guided visual reconstruction} and \textbf{debias-and-fitting training strategy}, SFTok resolves the training-inference inconsistency in multi-step process, significantly enhancing image reconstruction quality. At a high compression rate of only 64 tokens per image, SFTok achieves state-of-the-art reconstruction quality on ImageNet (rFID = 1.21) and demonstrates exceptional performance in class-to-image generation tasks (gFID = 2.29).
 <div id='section'>Paperid: <span id='pid'>2, <a href='https://arxiv.org/pdf/2511.21475.pdf' target='_blank'>https://arxiv.org/pdf/2511.21475.pdf</a></span>   <span><a href='https://github.com/hustvl/MobileI2V' target='_blank'>  GitHub</a></span> <span><a href='https://github.com/hustvl/MobileI2V' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Shuai Zhang, Bao Tang, Siyuan Yu, Yueting Zhu, Jingfeng Yao, Ya Zou, Shanglin Yuan, Li Yu, Wenyu Liu, Xinggang Wang
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2511.21475">MobileI2V: Fast and High-Resolution Image-to-Video on Mobile Devices</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Recently, video generation has witnessed rapid advancements, drawing increasing attention to image-to-video (I2V) synthesis on mobile devices. However, the substantial computational complexity and slow generation speed of diffusion models pose significant challenges for real-time, high-resolution video generation on resource-constrained mobile devices. In this work, we propose MobileI2V, a 270M lightweight diffusion model for real-time image-to-video generation on mobile devices. The core lies in: (1) We analyzed the performance of linear attention modules and softmax attention modules on mobile devices, and proposed a linear hybrid architecture denoiser that balances generation efficiency and quality. (2) We design a time-step distillation strategy that compresses the I2V sampling steps from more than 20 to only two without significant quality loss, resulting in a 10-fold increase in generation speed. (3) We apply mobile-specific attention optimizations that yield a 2-fold speed-up for attention operations during on-device inference. MobileI2V enables, for the first time, fast 720p image-to-video generation on mobile devices, with quality comparable to existing models. Under one-step conditions, the generation speed of each frame of 720p video is less than 100 ms. Our code is available at: https://github.com/hustvl/MobileI2V.
